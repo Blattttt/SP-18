@@ -101,7 +101,7 @@ class ThreadLoad implements Runnable {
                 int count = 0;
                 try {
                     while ((pic = musicFile.readLine()) != null) {
-                        downloadUsingNIO(pic, PATH_TO_MUSIC + String.valueOf(count) + ".jpeg");
+                        downloadUsingNIO(pic, PATH_TO_MUSIC1 + String.valueOf(count) + ".jpeg");
                         count++;
                     }
                 } catch (IOException e) {
